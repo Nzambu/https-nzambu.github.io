@@ -1,0 +1,36 @@
+html body {
+	font-family: sans-serif;
+	font-size: 18px;
+	color: black;
+}
+a {
+	color: lime;
+}
+.profile-picture {
+	height: 450px;
+}
+label {
+	font-size: 25px;
+	font-family: verdana;
+	font-weight: lighter;
+}
+.social-media i {
+	text-align: center;
+}
+.footer {
+	background-color:;
+}
+.footer p {
+	margin-top: 20px;
+}
+.main p {
+	line-height: 35px;
+	font-size: 20px;
+}
+.top p, h2{
+	text-align: center;
+
+}
+h1 small {
+	display: inline;
+}
