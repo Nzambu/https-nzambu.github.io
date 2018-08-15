@@ -126,7 +126,7 @@ input:hover {
 	color: white;
 }
 .list_all li {
-	order: none;
+	list-style: none;
 }
 .contacts p {
 	color: white;
