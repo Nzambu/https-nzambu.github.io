@@ -96,14 +96,18 @@ h2:hover {
 }
 
 .circle {
-	width: 130px;
+	margin-top: 50px;
+	width: auto;
 	height: 130px;
 	border: solid ed481f 1px;
-	border-style: dashed;
-	border-radius: 50%;
+	/*border-style: dashed;
+	border-radius: 10%;*/
 }
 .circle i {
 	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	
 }
 input:hover {
 	box-shadow: 0 0 10px ed481f;
