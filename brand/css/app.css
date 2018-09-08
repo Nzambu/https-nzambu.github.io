@@ -5,6 +5,8 @@ html body {
 	background-color: #606060;
 	border-bottom: 0px;
 	padding: 0px;
+	min-height: 120px;
+
 }
 .navbar-toggle {
 	float: left;
@@ -12,6 +14,7 @@ html body {
 .navbar-inverse .navbar-nav > li > a {
 	font-size: 20px;
 	color: white;
+	padding-top: 40px;
 }	
 .navbar-inverse .navbar-nav > li > a:hover, 
 .navbar-inverse .navbar-nav > li > a:focus { 
@@ -21,9 +24,10 @@ html body {
 	padding: 0px;
 }
 .navbar-brand>img {
-  height: 100%;
+  margin-top: 2px;
+  height: 100px;
   width: auto;
-  background-color: white;
+  
 }
 .navHeaderCollapse {
 	border-top: 0px;
@@ -31,18 +35,15 @@ html body {
 /*.navbar-header {
 	max-height: 50px;
 }*/
-.social-media {
-	height: 20;
-	color: ed481f;
-}.social-media i {
-	margin-top: 10px;
-	text-align: center;
+
+	
+
+	
 }
 .carousel img {
 	margin: auto;
 }
 .item {
-	max-height: 540px;
 	width:100%;
 	object-fit: scale-down;
 }
@@ -91,6 +92,10 @@ h2:hover {
 input:hover {
 	box-shadow: 0 0 10px ed481f;
 }
+/*.social-media {
+	background-color: white;
+	width: 30%; */
+}
 .form {
 	background-color: ;
 	padding: 5px;	
@@ -120,16 +125,71 @@ input:hover {
 	padding-top: 30px;
 }
 .footer p, i {
-	color: ;
 	font-size: 24px;
 	display: inline-block;
 }
 .footer i {
-	color: ed481f;
 	font-weight: bold;
 	padding-right: 20px;
 }
 .footer p {
 	vertical-align: top;
 	color: black;
+}
+.hr_style { 
+	border: 0; 
+	height: 2px; 
+	background-image: 
+	linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+.navbar-toggle {
+	margin-top: 20px;
+	border: none;
+}
+.navbar-toggle > .icon-bar {
+	background-color: #606060;
+}
+.clients_img img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.clients_img p {
+	font-size: 18px;
+	color: ed481f;
+	padding: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.carousel-inner {
+			width: 100%;
+			height: 200px;
+			
+		}
+	.carousel .item>img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			
+			height: 200px;
+			min-width: 100%;
+			object-fit: cover;
+	}
+	.navbar-brand>img {
+			height: 200%;
+			margin: 0;
+			width: 100%;
+			
+	}
+	.navbar-inverse .navbar-nav > li > a {
+			font-size: 20px;
+			color: white;
+			padding-top: 0px;
+	}
+	.navbar-inverse .navbar-nav > li:first-child > a {
+			padding-top: 50px;
+	}
 }
