@@ -1,0 +1,95 @@
+body {
+	color: green;
+}
+h3, h5 {
+	color: lime;
+}
+p, h3, h5 {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+ul>li {
+	list-style: none;
+}
+ol>li{
+	list-style: ;
+}
+.projects p {
+	padding: 20px;
+}
+.dark-theme {
+	background-color: #2a3e4e;
+}
+.dark-theme-lighter {
+	background-color: #314a5c;
+}
+.social-media {
+	padding: 20px 0px 20px 0px;
+}
+.header{
+	border-bottom: ;
+}
+.footer {
+	border-top: ;
+}
+.aside {
+	border-right: ;
+}
+.hover:hover {
+	color: white;
+	/*background-color: #2a3e4e;*/
+	box-shadow: 3px 3px 3px 3px lime;
+	-moz-box-shadow: 3px 3px 3px 3px lime;
+ 	-webkit-box-shadow: 3px 3px 3px 3px lime;
+}
+.portfolio {
+	border: solid #2a3e4e 1px;
+	border-radius: 20px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.portfolio img {
+	padding: 5px;
+}
+.portfolio p:first-child {
+	border-bottom: solid #2a3e4e 1px;
+	background-color: #2a3e4e;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.portfolio p:last-child {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top: solid #2a3e4e 1px;
+	background-color: #2a3e4e;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.portfolio a {
+	color: green;
+	font-size: 20px;
+}
+.portfolio a:hover {
+	color: lime;
+	text-decoration: none;
+}
+#aside_1,
+#aside_2,
+#aside_3,
+#aside_4,
+#aside_5,
+#aside_6,
+.central {
+	border: solid #2a3e4e 1px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.aside h5 {
+	background-color: #2a3e4e;
+	margin: 0px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 10px;
+}
