@@ -1,5 +1,5 @@
 body {
-	color: green;
+	color: #a2cf7d;
 }
 h3, h5 {
 	color: lime;
@@ -13,6 +13,10 @@ ul>li {
 }
 ol>li{
 	list-style: ;
+}
+#logo {
+	height:100px; 
+	width:100px;
 }
 .projects p {
 	padding: 20px;
@@ -86,10 +90,23 @@ ol>li{
 	border-radius: 20px;
 	margin-bottom: 20px;
 }
+#aside_1,
+#aside_2,
+#aside_3,
+#aside_4,
+#aside_5,
+#aside_6 {
+	margin-bottom: 40px;
+}
 .aside h5 {
 	background-color: #2a3e4e;
 	margin: 0px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	padding: 10px;
+}
+#icon {
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
 }
