@@ -61,7 +61,10 @@ h1 {
 	padding-bottom: 50px;
 }
 #map {
-	padding-top: 50px;
+	padding-left: -15px !important;
+	width:100%;
+	height:300px;
+	background:white;
 }
 .foot input, textarea, select {
 	border: solid 2px #ea5635;
@@ -95,9 +98,9 @@ h1 {
 	color: black;
 }
 .icon i {
-	padding: 40px;
+	padding: 30px;
 	color: white;
-	border: solid 1px #ea5635;
+	border: solid 1px #343132;
 	border-radius: 5px;
 }
 .clients_img p {
@@ -106,11 +109,10 @@ h1 {
 	padding-bottom: 20px;
 	font-size: 20px;
 }
-.circle {
-	height: 150px;
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
+/*.clients_img img:hover {
+	box-shadow: 1px 1px 1px 2px #ea5635;
+}*/
+
 .fa {
 	padding-left:10px;
 	padding-right:10px;
@@ -119,10 +121,40 @@ h1 {
 	display: inline-block;
 }
 .spacing h1 {
-	padding-left: 40px;
+	padding-left: 50px;
 }
 form {
 	background-color: #343132;
 	border-radius: 10px;
 	padding: 20px;
+}
+.t-colour {
+	background-color: lime;
+}
+.effect2 {
+	 margin-bottom: 30px;
+	 margin-top: 70px;
+		padding: 10px;
+		 border: solid 2px #656565;
+    -webkit-box-shadow: 0px 8px 6px -6px #343132;
+       -moz-box-shadow: 0px 8px 6px -6px #343132;
+            box-shadow: 0px 8px 6px -6px #343132;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.top-icon {
+	margin-top: -60px ;
+	margin-left: 10%;
+	border-radius: 50%;
+	height: 100px;
+	width:  100px;
+	background-color: white;
+}
+.top-icon img {
+	padding: 0px;
+	border-radius: 50%;
+	border: solid 2px #656565;
+}
+.clear h3 {
+	line-height: 50px;
 }
